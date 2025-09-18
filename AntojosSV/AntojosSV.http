@@ -1,0 +1,6 @@
+@AntojosSV_HostAddress = http://localhost:5240
+
+GET {{AntojosSV_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
