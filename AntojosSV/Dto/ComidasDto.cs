@@ -1,6 +1,6 @@
 ﻿namespace AntojosSV.Dto
 {
-    public class ComidasDto
+    public record ComidasDto
     (
          int Id,
          int CategoriaId,
