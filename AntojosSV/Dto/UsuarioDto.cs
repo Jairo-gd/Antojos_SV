@@ -1,7 +1,8 @@
-namespace AntojosSV.Dto
+﻿namespace AntojosSV.Dto
 {
-    public record CrearUsuarioDto
+    public record UsuarioDto
     (
+        int Id,
         string Nombre,
         string Apellido,
         string Telefono,
