@@ -7,6 +7,6 @@
         int ComidasId,
         string Direccion,
         string Telefono,
-        DateTime FechaEntrega
+        DateTime? FechaEntrega
     );
 }
