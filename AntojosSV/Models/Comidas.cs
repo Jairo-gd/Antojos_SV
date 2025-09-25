@@ -13,7 +13,6 @@ namespace AntojosSV.Models
         [MaxLength(200)]
         public string Descripcion { get; set; } = default!;
         public string UrlImagen { get; set; } = default!;
-
         public List<Encargos> Encargos { get; set; } = new();
 
 
