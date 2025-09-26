@@ -1,9 +1,9 @@
 ﻿namespace AntojosSV.Dto
 {
-    public record CrearCategoriaDto
+    public record EliminarCategoriaDto
     (
         int Id,
         string Nombre
-        
-    );
+
+        );
 }
