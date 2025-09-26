@@ -111,7 +111,16 @@ namespace AntojosSV.Endpoints
                 return Results.NoContent();
 
             });
+            group.MapDelete("/{id}", async (int id, AntojosSVDb db) =>
+            {
+                var comidas = await db.Comidas.FindAsync(id);
+                if (comidas is null)
+                    return Results.NotFound();
 
+                db.Remove(comidas);
+                await db.SaveChangesAsync();
+                return Results.NoContent();
+            });
 
         }
     }
