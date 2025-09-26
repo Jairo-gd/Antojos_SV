@@ -1,7 +1,7 @@
 ﻿namespace AntojosSV.Dto
 {
-    public record ModificarEncargosDto
-    (
+    public record EliminarEncargosDto
+     (
         int Id,
         string Direccion,
         string Telefono,
